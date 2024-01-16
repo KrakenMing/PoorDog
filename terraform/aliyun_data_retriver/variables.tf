@@ -1,7 +1,8 @@
 variable "region" {
   description = "Value of ECS zone ID"
   type        = string
-  default     = "cn-hongkong"
+  #default     = "cn-hongkong"
+  default = "cn-qingdao"
 }
 
 variable "aliyun_access_key" {
